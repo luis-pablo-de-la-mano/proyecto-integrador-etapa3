@@ -1,0 +1,16 @@
+.gallery-discounts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 98%;
+    max-width: 1700px;
+    margin: auto;
+}
+
+
+.img-discounts{
+        flex-grow: 1;
+        height: 400px;
+        object-fit: cover;
+        border: 5px solid  hsl(210, 16%, 97%);
+}

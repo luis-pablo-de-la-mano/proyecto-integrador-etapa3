@@ -1,0 +1,129 @@
+[
+	{
+		"id": "1",
+		"name": "Smart Watch 1",
+		"price": "11112",
+		"description": "color turquesa",
+		"category": "reloj",
+		"stock": "2",
+		"brand": "samsung"
+	},
+	{
+		"id": "4",
+		"name": "Smart Watch 4",
+		"price": "42500",
+		"description": "color azul",
+		"category": "superheroes",
+		"stock": "5",
+		"brand": "lego"
+	},
+	{
+		"id": "5",
+		"name": "Smart Watch",
+		"price": "42500",
+		"description": "color negro",
+		"category": "animales",
+		"stock": "3",
+		"brand": "lego"
+	},
+	{
+		"id": "7",
+		"name": "Smart Watch",
+		"price": "42500",
+		"description": "color negro",
+		"category": "peliculas",
+		"stock": "6",
+		"brand": "lego"
+	},
+	{
+		"name": "Smart Watch",
+		"description": "color negro",
+		"price": "42500",
+		"id": "8"
+	},
+	{
+		"name": "Smart Watch",
+		"description": "color negro",
+		"price": "42500",
+		"id": "9"
+	},
+	{
+		"name": "Licuadora turbo",
+		"description": "Con 3 cuchillas intercambiables.",
+		"price": 34500,
+		"id": "10"
+	},
+	{
+		"name": "Parlante inalámbrico",
+		"description": "con batería de 3500 mAh (enviado con x-www-form-urlencoded)",
+		"price": "31500",
+		"id": "11"
+	},
+	{
+		"name": "Smart Watch",
+		"description": "color negro",
+		"price": "42500",
+		"id": "12"
+	},
+	{
+		"id": "13",
+		"name": "tyrtytryrtyryrt",
+		"price": "4565",
+		"description": "htrhthrh"
+	},
+	{
+		"id": "14",
+		"name": "rgerg",
+		"price": "34543",
+		"description": "trhrthr"
+	},
+	{
+		"id": "15",
+		"name": "gngfnfg",
+		"price": "4534534",
+		"description": "ghff"
+	},
+	{
+		"id": "16",
+		"name": "fhh ghgh",
+		"price": "4554654",
+		"description": "thtr"
+	},
+	{
+		"id": "17",
+		"name": "frfrfr grgrgr",
+		"price": "999999",
+		"description": "hthtrb"
+	},
+	{
+		"id": "18",
+		"name": "motorola g9",
+		"price": "18000",
+		"description": "plateado"
+	},
+	{
+		"id": "19",
+		"name": "bgfbfb",
+		"price": "345",
+		"description": "erg",
+		"categoria": "rge"
+	},
+	{
+		"id": "20",
+		"name": "samsung S 35",
+		"price": "234",
+		"description": "ewf",
+		"category": "dfds",
+		"stock": "7",
+		"brand": "efw"
+	},
+	{
+		"id": "21",
+		"name": "gregr",
+		"price": "345",
+		"description": "fdb",
+		"category": "ge",
+		"stock": "5",
+		"brand": "rth"
+	}
+]

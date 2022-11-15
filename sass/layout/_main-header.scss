@@ -1,0 +1,181 @@
+.main-header{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1800px;
+    margin: auto;
+    font-weight: bold;
+    background-color: rgb(252, 252, 24);
+
+    &__logo-container{
+        background-color: rgb(252, 252, 24);
+        height: 150px;
+        flex-grow: 180px;
+        order: 1;
+
+        @media (max-width:725px) {
+            margin: auto;
+            background-color: rgb(252, 252, 24);
+        }
+
+        &__logo-barra-nav{
+            height: 150px;
+            width: 177px;
+            object-fit: cover;
+            background-color: rgb(252, 252, 24);
+        }
+    }
+
+    &__search-form-container{
+        display: flex;
+        justify-content: center;
+        background-color: rgb(252, 252, 24);
+        padding: 1em;
+        flex-grow: 1;
+        order: 2;
+
+        @media (min-width:768px){
+            order: 3;
+            flex-grow: 1;
+        }
+    }
+
+    .form-header{
+        color: rgb(83, 83, 83);
+        align-self: center;
+        justify-content: center;
+        margin-top: 30px;
+        border-radius: 4px;
+        padding: 5px;
+
+        @media (min-width: 200px) {
+            margin-top: 0;
+            padding: 0;
+        }
+
+        &__btn-search{
+            cursor: pointer;
+            border-radius: 4px;
+            border: 1px solid grey;
+            padding: 5px;
+
+            @media (min-width: 100px) {
+                margin-left: 70px;
+                margin-top: 10px;
+            }
+            @media (min-width: 378px) {
+                margin-left: auto;
+                margin-top: auto;
+            }
+        }
+
+        &__search{
+            border: 1px solid grey;
+            border-radius: 4px;
+            padding: 5px;
+        }
+
+        &__label-search{
+            @media (min-width: 100px) {
+                display: none; 
+            }
+            @media (min-width: 381px) {
+                display: inline; 
+            }
+        }
+    }
+    .form-header:hover{
+        background-color: rgb(247, 247, 106);
+        transition: box-shadow 0.2s 0.2s;
+        box-shadow: 1px 1px 4px 2px #ff872c;
+    }
+
+    &__cart-button-container{
+        position: absolute;
+        height: 70px;
+        width: 70px;
+        background-color: rgb(252, 252, 24);
+        padding: 1.5em;
+        border-radius: 50%;
+        position: fixed;
+        bottom: 10%;
+        right: 3%;
+        cursor: pointer;
+        
+        @media (max-width:869px) {
+            right: 1.5%;
+            opacity: 1;
+            background-color: rgb(252, 252, 24);
+        }
+
+        @media (min-width:877px) {
+            right: 0;
+            opacity: 0.2;
+            background-color: rgb(252, 252, 24);
+        }
+
+        @media (min-width:1349px) {
+            right: 1.5%;
+            opacity: 1.0;
+            background-color: rgb(252, 252, 24);
+        }
+
+        @media (min-width:1800px) {
+            right: 15%;
+            background-color: rgb(252, 252, 24);
+        }
+    }
+
+    &__cart-button-container:hover{
+        background-color: rgb(238, 245, 103);
+        transform: scale(1.5);
+        opacity: 1;
+    }
+
+    .cart{
+        width: 100%;
+        //background-color: red;
+        background-color: rgb(252, 252, 24);
+    }
+
+    &__hamburger-button-container{
+        background-color: #47b;
+        padding: 1em;
+        order: 3;      
+
+        @media (min-width: 100px) {
+            flex-grow: 1;
+            order: 4;
+            flex-basis: 100%;
+        }
+
+        @media (min-width: 442px) {
+            flex-grow: 1;
+            flex-basis: 100%;
+        }
+
+        @media (min-width: 768px) {
+            display: none;
+            order: 4;
+        }
+    }
+
+    &__main-nav-container{
+        background-color: rgb(252, 252, 24);
+        display: none;
+        flex-grow: 1;
+        order: 4;
+
+        @media (min-width:768px) {
+            flex-basis: auto;
+            flex-grow: 3;
+            order: 2;
+            display: block
+        }
+    }
+}
+.container-header{
+    background-color: rgb(252, 252, 24);
+}
+.img_cart{
+    background-color: rgb(252, 252, 24);
+}

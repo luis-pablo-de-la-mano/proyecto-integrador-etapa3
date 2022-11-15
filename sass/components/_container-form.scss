@@ -1,0 +1,190 @@
+.main-contact{
+    width: 100%;
+    max-width: 1800px;
+    margin: auto;
+    background-color: hsl(210, 16%, 97%);
+}
+.container-form{
+    position: relative;
+    width: 100%;
+    max-width: 1800px;
+    padding: 15px;
+    margin: auto;
+    font-weight: 500;
+    
+    &__p{
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 30px;
+        margin-left: 115px;
+        display: inline-block;
+        width: 40%px;
+        -webkit-box-shadow: 1px 1px 8px 0px rgba(112,112,112,0.4);
+            -moz-box-shadow: 1px 1px 8px 0px rgba(112,112,112,0.4);
+            box-shadow: 1px 1px 8px 0px rgba(112,112,112,0.4);
+
+        @media (min-width:100px) {
+            margin-left: 10px;
+            background-color: rgba(211, 211, 211, 0.563);
+            border-radius: 4px;
+            padding: 3px;
+        }
+
+        @media (min-width: 920px) {
+            margin-left: 115px; 
+        }
+    }
+
+    &__img1{
+        position: absolute;
+        right: 10%;
+        top: 4%;
+        opacity: 0.9;
+        width: 1150px;
+        height: 675px;
+
+        @media (min-width:100px) {
+            opacity: 0.4;
+            height: 96%;
+            
+        }
+
+        @media (min-width:1065px) {
+            opacity: 1;
+            height: 96%; 
+        }
+    }
+}
+
+
+
+.form{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-bottom: 30px;
+    height: 500px ;
+    width: 47%;
+
+        @media (min-width: 100px) {
+            -webkit-box-shadow: 0px 0px 0px 0px rgba(196, 24, 24, 0.4);
+            -moz-box-shadow: 0px 0px 8px 0px rgba(131, 29, 29, 0.4);
+            box-shadow: 0px 0px 0px 0px rgba(141, 21, 21, 0.4);
+        }
+        @media (min-width: 534px) {
+            -webkit-box-shadow: 1px 1px 8px 0px rgba(112,112,112,0.4);
+            -moz-box-shadow: 1px 1px 8px 0px rgba(112,112,112,0.4);
+            box-shadow: 1px 1px 8px 0px rgba(112,112,112,0.4);
+    
+        }
+
+    @media (max-width: 921px) {
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+
+    &__name-email{
+        display: flex;
+        padding: 15px;
+        min-width: 235px;
+        
+        &__name{
+            margin-right: 20px;
+            background-color: hsla(78, 71%, 76%, 0.661);
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        &__name:focus{
+            background-color: hsla(38, 71%, 76%, 0.661);
+        }
+
+        &__email{
+            margin-right: 20px;
+            background-color: hsla(78, 71%, 76%, 0.661);
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        &__email:focus{
+            background-color: hsla(38, 71%, 76%, 0.661);
+        }
+
+        @media (max-width: 768px) {
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+        }
+    }
+
+    &__textarea-container{
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+
+        @media (max-width: 760px) {
+            width: 90%;
+        }
+
+        @media (max-width: 689px) {
+            width: 235px;
+        }
+    }
+
+    &__name-error{
+        width: 94%;
+        max-width: 300px;
+        margin-top: 10px;
+        color: hsl(0, 68%, 45%);
+        display: none;
+        background-color: rgba(128, 128, 128, 0.129);
+        border-radius: 4px;
+    }
+
+    &__email-error{
+        width: 94%;
+        max-width: 300px;
+        margin-top: 10px;
+        color: hsl(0, 85%, 40%);
+        display: none;
+        background-color: rgba(128, 128, 128, 0.129);
+        border-radius: 4px;
+    }
+    
+    &__textarea-error{
+        max-width: 660px;
+        color: hsl(0, 85%, 40%);
+        display: none;
+        background-color: rgba(128, 128, 128, 0.129);
+        border-radius: 4px;
+    }
+
+    &__btn-send{
+        width: 10%;
+        border-radius: 4px;
+        margin-left: 20px;
+        margin-top: 30px;
+        padding: 3px;
+        background-color: hsla(78, 71%, 76%, 0.661);
+        cursor: pointer;
+
+        @media (max-width: 689px) {
+            width: 80px;
+        }
+    }
+    &__textarea{
+        background-color: hsla(78, 71%, 76%, 0.661);
+        border-radius: 4px;
+        cursor: pointer;
+        resize: none;
+    }
+
+    &__textarea:focus{
+        background-color: hsla(38, 71%, 76%, 0.661);
+    }
+
+}
+

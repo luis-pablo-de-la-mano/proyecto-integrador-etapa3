@@ -1,0 +1,82 @@
+<h1 class="tituloPrincipal">Alta de Productos</h1>
+<div class="container-form-alta">
+    <section class="section-product-form-alta">
+        <h2>Formulario para cargar productos</h2>
+
+        <div class="image-batman">
+            <img src="./img/batman-lego.png" alt="lego-call-center">
+        </div>
+
+        <div class="product-form-container">
+
+            <form method="post" action="http://127.0.0.1:8080/alta" enctype="multipart/form-data">
+                <div class="form-alta">
+                    <input type="file" name="archivo" required>
+                    <button>Cargar imagen</button>
+                </div>
+            </form>
+
+            <form action="/api/products" method="post" id="form-alta-producto">    <!--enctype="multipart/form-data"-->
+                <input type="hidden" id="id" name="id">
+
+
+
+                <div class="form-alta">
+                    <label for="name">Nombre:</label>
+                    <input class="campo" type="text" id="name" name="name" placeholder="nombre">
+                </div>
+
+                <div class="form-alta">
+                    <label for="price">Precio:</label>
+                    <input class="campo" type="text" id="price" name="price" placeholder="precio">
+                </div>
+
+                <div class="form-alta">
+                    <label for="description">Descripción:</label>
+                    <input class="campo" type="text" id="description" name="description" placeholder="descripcion">
+                </div>
+
+                <div class="form-alta">
+                    <label for="category">Categoria:</label>
+                    <input class="campo" type="text" id="category" name="category" placeholder="categoria">
+                </div>
+
+                <div class="form-alta">
+                    <label for="stock">Stock:</label>
+                    <input class="campo" type="text" id="stock" name="stock" placeholder="stock">
+                </div>
+
+                <div class="form-alta">
+                    <label for="brand">Marca:</label>
+                    <input class="campo" type="text" id="brand" name="brand" placeholder="marca">
+                </div>
+
+                <div class="form-alta">
+                    <label for="image">Link para imagen</label>
+                    <input class="campo" type="text" id="image" name="image" placeholder="URL Imagen">
+                </div>
+                <!-- <div>
+                    <label for="image">Imagen:</label>
+                    <input type="text" id="image" name="image">
+                </div> -->
+                <!-- <div>
+                    <input type="file" name="archivo" required>
+                </div> -->
+
+                <div class="product-form-container__botones">
+                    <button class="product-form-container__botones__btn-crud" id="btn-create">Crear</button>
+                    <button class="product-form-container__botones__btn-crud" type="button" id="btn-update" disabled>Guardar</button>
+                    <button class="product-form-container__botones__btn-crud" type="button" id="btn-cancel" disabled>Cancelar</button>
+                </div>
+
+            </form>
+        </div>
+    </section>
+
+    <section class="section-products-table">
+        <h2>Listado de productos</h2>
+        <div class="products-table-container"></div>
+    </section>
+
+</div>    
+

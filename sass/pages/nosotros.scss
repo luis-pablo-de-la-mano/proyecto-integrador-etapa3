@@ -1,0 +1,126 @@
+
+
+.container-cv{
+        display: flex;
+        //border: 2px dashed red;    
+        //align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+
+
+
+
+
+
+
+
+
+
+
+// .container-main{
+//     display: flex;
+//     border: 2px dashed red;    
+//     //align-items: center;
+//     justify-content: center;
+//     box-sizing: border-box;
+// }
+// .cv{
+//     //align-items: flex-end;
+//     border: 1px solid brown;
+//     height: 700px;
+//     width: 80%;
+//     //align-self: center;
+//     display: flex;
+//     flex-direction: column;
+
+//     &__footer{        
+//         align-self: flex-end;
+//         height: 40px;
+//         width: 100%;
+//         border: 1px solid brown;
+//         flex-direction: row;
+//         justify-content: space-between;
+//         display: flex;
+
+//         &__inicio{
+//             border: 1px solid green;
+//             width: 70px;
+//             height: 40px;
+//             text-align: center;
+            
+//         }
+
+//         &__hours{
+//             border: 3px solid pink;
+//             width: 70px;
+//             height: 40px;
+//             text-align: center;
+            
+//         }
+//     }
+// }
+
+// .container-iconos-menu{
+//     border: 2px dashed red;
+//     height: 670px;
+//     width: 300px;
+//     margin: 0;
+//     display: flex;
+//     flex-direction: column;
+
+//     &__iconos{
+//         border: 2px dashed greenyellow;
+//         width: 100%;
+//         height: 50%;
+//     }
+//     &__menu2{
+//         border: 2px dashed grey;
+//         width: 100%;
+//         height: 50%;
+//         display: flex;
+//         flex-direction: row;
+
+//         &__logo-windows{
+//             width: 60px;
+//             border: 2px solid red;
+//             height: 100%;
+//         }
+
+//         &__menu33{
+//             background-color: red;
+//             height: 100%;
+//             width: 240px;
+//         }
+//         // &__menu33{
+//         //     display: flex;
+//         //     flex-direction: column;
+//         //     justify-content: space-around;
+//         //     background-color: red;
+        
+//         // //     &__container-menu3{
+//         // //         border: 1px dached yellow;
+//         // //         height: 20px;
+        
+//         // //     }
+//         // }
+//     }
+// }
+
+// .menu3{
+//     display: flex;
+//     flex-direction: column;
+//     flex-grow: initial;
+//     //justify-content: space-around;
+//     width: 240px;
+//     height: 100%;
+//     background-color: red;
+
+//         &__container-menu33{
+//             border: 2px dashed yellow;
+//             //height: 20px;
+//             width: 100%;
+//             flex-grow: 1;
+
+//     }
+// }

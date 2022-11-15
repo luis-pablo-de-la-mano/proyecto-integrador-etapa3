@@ -1,0 +1,190 @@
+.container-form-alta{
+    background-color: hsl(210, 16%, 97%);
+    padding: 20px;
+    @media (min-width:1000px) {
+        margin-left: 50px;
+        //flex-direction: column;
+    }
+    @media (min-width:1995px) {
+        margin-left: 100px;
+        //flex-direction: column;
+    }
+}
+.tituloPrincipal{
+    @media (min-width:1000px) {
+        margin-left: 50px;
+        //flex-direction: column;
+    }
+    @media (min-width:1995px) {
+        margin-left: 100px;
+        //flex-direction: column;
+    }
+}
+
+
+.product-form-container{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    
+//     //border: solid 1px red;
+    
+    padding: 10px;
+    -webkit-box-shadow: 1px 1px 8px 0px rgba(112,112,112,0.4);
+    -moz-box-shadow: 1px 1px 8px 0px rgba(112,112,112,0.4);
+    box-shadow: 1px 1px 8px 0px rgba(112,112,112,0.4);
+
+    @media (min-width:200px) {
+        width: 400px;
+        //flex-direction: column;
+    }
+    &__botones{
+        padding: 20px;
+        //background-color: red;
+        &__btn-crud{
+            margin-right: 10px;
+            padding: 5px;
+        }
+    }
+    
+}
+
+.form-alta{
+    margin: 20px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+td{
+    border-bottom: 1px solid hsla(0, 95%, 50%, 0.356);
+    box-shadow: 1px 1px 8px 0px rgba(112,112,112,0.4);
+    padding: 7px;
+}
+
+// .main-alta{
+//     width: 100%;
+//     margin: auto;
+//     max-width: 1800px;
+//     background-color: hsl(210, 16%, 97%);
+//     background-image: url(../img/spidermanLego.jpg);
+//     width: 100%;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+// }
+
+
+//     @media (max-width: 1344px) {
+//         background-position: center;
+//     }
+
+//     @media (max-width: 600px) {
+//         background-position-x: 35%;
+//     }
+// }
+
+// .form-alta{
+//     width: 100%;
+//     margin: auto;
+//     max-width: 1800px;
+//     padding: 30px;
+
+//     &__container-name{
+//         display: inline;
+//     }
+
+//     &__container-inputs{
+//         margin-top: 30px;
+//         padding: 3px;
+
+//         &__name{
+//             border-radius: 4px;
+//         }
+
+//         &__price{
+//             margin-left: 10px;
+//             border-radius: 4px;
+//         }
+
+//         &__stock{
+//             margin-left: 15px;
+//             border-radius: 4px;
+//         }
+
+//         &__brand{
+//             margin-left: 10px;
+//             border-radius: 4px;
+//         }
+
+//         &__price-envio{
+//             border-radius: 4px;
+//         }
+
+//         &__age{
+//             margin-right: 15px;
+//             border-radius: 4px;
+//             background-color: rgba(248, 248, 248, 0.525);
+//         }
+
+//         &__img{
+//             border-radius: 4px;
+//         }
+
+//         &__categories{
+//             border-radius: 4px;
+//             margin-right: 7px;
+//             background-color: rgba(248, 248, 248, 0.525);
+//         }
+
+//         &__envios{
+//             margin-right: 10px;
+//         }
+//     }
+
+//     &__container-textarea{
+//         display: flex;
+//         flex-direction: column;
+//         width: 600px;
+        
+//         &__textarea{
+//             margin-top: 7px;
+//             resize: none;
+//             border-radius: 4px;
+//             background-color: rgba(248, 248, 248, 0.725);
+
+//             @media (max-width: 640px) {
+//                 width: 300px;
+//             }
+//         }
+
+//     }
+//     &__label{
+//         margin-right: 15px;
+//         background-color: rgba(219, 214, 214, 0.325);
+//         border-radius: 4px;
+//         padding: 4px;
+
+//         &__textarea{
+//             width: 24%;
+//         }
+//     }
+
+//     &__btn__send{
+//         margin-top: 30px;
+//         border-radius: 4px;
+//         padding: 4px;
+//         background-color: rgba(248, 248, 248, 0.825);
+//         cursor: pointer;
+//     }
+
+//     &__error{
+//         margin-top: 7px;
+//         color: hsl(0, 85%, 40%);
+//         background-color: rgba(128, 128, 128, 0.655);
+//         display: none;
+//     }
+
+// }
+// .form-alta input{
+//     background-color: rgba(248, 248, 248, 0.525);
+// }

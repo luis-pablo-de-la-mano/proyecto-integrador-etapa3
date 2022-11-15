@@ -1,0 +1,67 @@
+.card{
+    width: 250px;
+    max-width: 300px;
+    flex-grow: 1;
+    border-radius: 4px ;
+    transition: all .2s;
+    margin: 10px;
+    padding: 7px;
+
+
+    &:hover {
+        transform: scale(1.05);
+        transform-origin: bottom;
+        -webkit-box-shadow: 1px 1px 8px 0px rgba(112,112,112,0.4);
+        -moz-box-shadow: 1px 1px 8px 0px rgba(112,112,112,0.4);
+        box-shadow: 1px 1px 8px 0px rgba(112,112,112,0.4);
+    }
+
+    &__image-container{
+        display: flex;
+        width: 100%;
+        height: 200px;
+        justify-content: center;
+        border-radius: 4px ;
+        background-color: hsl(210, 16%, 97%);
+    }
+
+    &__image{
+        margin: auto;
+        width: 220px;
+        height: 200px;
+        display: block;
+        border-radius: 4px ;
+        background-color: hsl(210, 16%, 97%);
+    }
+
+    &__btn-buy{
+        padding: 5px;
+        margin-left: 160px;
+        border: 0.5px solid grey;
+        border-radius: 4px;
+        font-size: 18px;
+        opacity: 1.5;
+        cursor: pointer;
+    }
+
+    &__btn-buy:hover{
+        opacity: 1.0;
+        transform: scale(1.05);
+        transform-origin: bottom;
+        -webkit-box-shadow: 1px 1px 8px 0px rgba(187, 79, 79, 0.4);
+        -moz-box-shadow: 1px 1px 8px 0px rgba(187, 79, 79, 0.4);
+        box-shadow: 1px 1px 8px 0px rgba(187, 79, 79, 0.4);
+    }
+    
+    &__price{
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(133, 41, 41);
+        font-size: 35px;
+        font-weight: 700;
+
+        &__number{
+            margin: 15px;
+            margin-left: 0;
+        }
+    }
+}
