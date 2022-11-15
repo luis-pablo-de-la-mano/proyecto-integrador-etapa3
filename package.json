@@ -9,7 +9,7 @@
     "start": "node server.js"
   },
   "keywords": [],
-  "author": "luis Pablo de la Mani",
+  "author": "luis Pablo de la Mano",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.1",
